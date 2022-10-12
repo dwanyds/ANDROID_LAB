@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
        lv=findViewById(R.id.a);
-        String[] names=new String[]{"afssf","fssfsf","sfsfsf","eqryyreuu","wtwy4uijkrt","gweyhejhr","eherur","sgsghwjhbsv","zvbsgwsgs"};
+        String[] names=new String[]{"afssf","fssfsf","sfsfsf","eqryyreuu","wtwy4uijkrt","gweyhejhr","eherur","fhfhdfjendn","dxbvdxbd","dbdxbed","ryehdehdh","ddghdhdh","svsbsb","bhhdnbdnd","xbdbndn","sgshbsdhsdhd","sbdbdbd","dbdbdbdbd","dbdbddb","dbdnbdndndg","shhdnhdfnd","sgsghwjhbsv","zvbsgwsgs"};
 
         ArrayAdapter<String> itemsadapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,names);
         lv.setAdapter(itemsadapter);
