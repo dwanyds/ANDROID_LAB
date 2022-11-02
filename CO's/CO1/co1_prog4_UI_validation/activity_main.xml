@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="35dp"
+    android:layout_marginLeft="35dp">
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Full Name" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Enter userame" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Enter password" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:ems="10"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/gender"></TextView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignLeft="@+id/gender">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female">
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginRight="10dp">
+
+    </Button>
+
+
+</LinearLayout>
